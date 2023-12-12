@@ -3,6 +3,9 @@ project(Algorithms C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_subdirectory("${PROJECT_SOURCE_DIR}/sorting/BubbleSort" "${PROJECT_SOURCE_DIR}/sorting/BubbleSort/cmake-build-debug")
-add_subdirectory("${PROJECT_SOURCE_DIR}/sorting/InsertionSort" "${PROJECT_SOURCE_DIR}/sorting/InsertionSort/cmake-build-debug")
-add_subdirectory("${PROJECT_SOURCE_DIR}/sorting/SelectionSort" "${PROJECT_SOURCE_DIR}/sorting/SelectionSort/cmake-build-debug")
+add_subdirectory("algorithms/sorting/BubbleSort" "algorithms/sorting/BubbleSort/cmake-build-debug")
+add_subdirectory("algorithms/sorting/InsertionSort" "algorithms/sorting/InsertionSort/cmake-build-debug")
+add_subdirectory("algorithms/sorting/SelectionSort" "algorithms/sorting/SelectionSort/cmake-build-debug")
+add_subdirectory("algorithms/sorting/MergeSort" "algorithms/sorting/MergeSort/cmake-build-debug")
+add_subdirectory("datastructures/Array/searching" "datastructures/Array/searching/cmake-build-debug")
+add_subdirectory("algorithms/sorting/QuickSort" "algorithms/sorting/QuickSort/cmake-build-debug")
