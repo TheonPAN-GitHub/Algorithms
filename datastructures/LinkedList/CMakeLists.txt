@@ -6,3 +6,4 @@ set(CMAKE_C_STANDARD 17)
 
 add_executable(SinglyLinkedList SinglyLinkedList.c)
 add_executable(DetectAndRemoveLoop DetectAndRemoveLoop.c)
+add_executable(RemoveDuplicatesFromUnsortedLinkedList RemoveDuplicatesFromUnsortedLinkedList.c)
