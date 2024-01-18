@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.25)
+
+PROJECT(Linkedlist C)
+
+set(CMAKE_C_STANDARD 17)
+
+add_executable(SinglyLinkedList SinglyLinkedList.c)
+add_executable(DetectAndRemoveLoop DetectAndRemoveLoop.c)
