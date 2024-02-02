@@ -4,3 +4,4 @@ SET(CMAKE_C_STANDARD 17)
 
 add_executable(ConstructBinaryTreeFromArray ConstructBinaryTreeFromArray.c)
 add_executable(ConstructCompleteBinaryTreeFromArray ConstructCompleteBinaryTreeFromArray.c)
+add_executable(ConstructCompleteBinaryTreeFromArrayByQ ConstructCompleteBinaryTreeFromArrayByQ.c)
