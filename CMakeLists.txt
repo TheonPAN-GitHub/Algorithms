@@ -11,3 +11,4 @@ add_subdirectory("datastructures/Array/searching" "datastructures/Array/searchin
 add_subdirectory("algorithms/sorting/QuickSort" "algorithms/sorting/QuickSort/cmake-build-debug")
 add_subdirectory("datastructures/LinkedList" "datastructures/LinkedList/cmake-build-debug")
 add_subdirectory("datastructures/BinaryTree" "datastructures/BinaryTree/cmake-build-debug")
+add_subdirectory("datastructures/BinarySearchTree" "datastructures/BinarySearchTree/cmake-build-debug")
