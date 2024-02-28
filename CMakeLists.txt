@@ -12,3 +12,4 @@ add_subdirectory("algorithms/sorting/QuickSort" "algorithms/sorting/QuickSort/cm
 add_subdirectory("datastructures/LinkedList" "datastructures/LinkedList/cmake-build-debug")
 add_subdirectory("datastructures/BinaryTree" "datastructures/BinaryTree/cmake-build-debug")
 add_subdirectory("datastructures/BinarySearchTree" "datastructures/BinarySearchTree/cmake-build-debug")
+add_subdirectory("datastructures/AVLTree" "datastructures/AVLTree/cmake-build-debug")
