@@ -10,3 +10,4 @@ add_executable(RemoveDuplicatesFromUnsortedLinkedList RemoveDuplicatesFromUnsort
 add_executable(DoubleLinkedList DoubleLinkedList.c)
 add_executable(ReverseDoublyLinkedList ReverseDoublyLinkedList.c)
 add_executable(SinglyLinkedList SinglyLinkedList.c)
+add_executable(RemoveLoopInLinkedList RemoveLoopInLinkedList.c)
