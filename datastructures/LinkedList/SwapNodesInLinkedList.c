@@ -100,7 +100,7 @@ void swap(Node **x, Node **y) {
 }
 
 /**
-     More efficient approach.
+     More efficient approach. The trick is using the pointer of pointer as arguments to swap.
  */
 void swapNodesInOneTraversal(Node **head, int x, int y) {
     if (x == y) {
