@@ -153,6 +153,19 @@ void printDoublyLinkedList(Node *head) {
     printf("].\n");
 }
 
+void reverseDoublyLinkedList(Node **head) {
+    Node *current_node = *head;
+    while (current_node) {
+        Node *temp = current_node->next;
+        current_node->next = current_node->prev;
+        current_node->prev = temp;
+        if (current_node->prev == NULL) {
+            *head = current_node;
+        }
+        current_node = current_node->prev;
+    }
+}
+
 int main() {
     Node *doublyLinkedList = NULL;
     append(&doublyLinkedList, 1);
@@ -169,13 +182,17 @@ int main() {
     }
     printDoublyLinkedList(doublyLinkedList);
 
-//    Node *doublyLinkedList1 = NULL;
-//    push(&doublyLinkedList1, 6);
-//    push(&doublyLinkedList1, 5);
-//    push(&doublyLinkedList1, 4);
-//    push(&doublyLinkedList1, 3);
-//    push(&doublyLinkedList1, 2);
-//    push(&doublyLinkedList1, 1);
+    Node *doublyLinkedList1 = NULL;
+    push(&doublyLinkedList1, 6);
+    push(&doublyLinkedList1, 5);
+    push(&doublyLinkedList1, 4);
+    push(&doublyLinkedList1, 3);
+    push(&doublyLinkedList1, 2);
+    push(&doublyLinkedList1, 1);
 
-//    printDoublyLinkedList(doublyLinkedList1);
+    printf("Before reversing:\n");
+    printDoublyLinkedList(doublyLinkedList1);
+    reverseDoublyLinkedList(&doublyLinkedList1);
+    printf("After reversing:\n");
+    printDoublyLinkedList(doublyLinkedList1);
 }
